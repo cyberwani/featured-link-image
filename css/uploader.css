@@ -1,0 +1,29 @@
+#my-link-img a.remove_image {
+	width: 16px;
+	height: 16px;
+	background: url(../img/button_remove.png) 0 0 no-repeat;
+	position: absolute;
+	top:7;
+	left: 7;
+	cursor: pointer;
+	margin: -3px 0 0 -3px;
+	display: none;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+	border-radius: 8px;
+}
+
+#my-link-img:hover a.remove_image {
+	display: block;
+}
+
+#my-link-img a.remove_image:hover  {
+	background-position: 0% 100%;
+}
+
+.link-featured-image {
+	max-width:255px
+}
+
+.link-help-text {
+	color:#999
+}
