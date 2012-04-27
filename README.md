@@ -23,7 +23,7 @@ After selection, the default Link Image field is populated with the image URL an
 
 
 ## Screenshot
- * [Metabox](https://github.com/brasofilo/featured-link-image/raw/master/screenshot.png)
+![Metabox](https://github.com/brasofilo/featured-link-image/raw/master/screenshot.png)
 
 
 ## Other Notes
