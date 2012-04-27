@@ -11,6 +11,13 @@ License: GPL
 */
 
 
+// avoid direct calls to this file, because now WP core and framework has been used.
+if ( ! function_exists( 'add_filter' ) ) {
+	echo "Hi there! I'm just a part of plugin, not much I can do when called directly.";
+	exit;
+}
+
+
 /**
  * Init
  */
