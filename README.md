@@ -20,7 +20,7 @@ The plugin also adds a Thumbnail column in the page /wp-admin/link-manager.php
 1. Unpack the download-package
 1. Upload the file to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
-1. Go to *Links* -> *Edit* or *Add* to see it in action
+1. Go to *Links* to see it in action
 
 
 ## Screenshots
