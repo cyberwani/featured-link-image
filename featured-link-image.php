@@ -124,8 +124,8 @@ class brsfl_bookmarkImageMetaBox {
 
 		load_plugin_textdomain('fli', null, 'featured-link-image/lang');
 
-		add_action('add_meta_boxes', array(&$this, 'add_some_meta_box'));
-		add_action('add_meta_boxes_link', array(&$this, 'add_some_meta_box'));
+		add_action('add_meta_boxes', array(&$this, 'add_fli_meta_box'));
+		add_action('add_meta_boxes_link', array(&$this, 'add_fli_meta_box'));
 
 		add_action('admin_print_scripts', array(&$this, 'my_admin_scripts'));
 		add_action('admin_print_styles', array(&$this, 'my_admin_styles'));
@@ -147,9 +147,9 @@ class brsfl_bookmarkImageMetaBox {
 	/**
 	 * Adds the meta box container
 	 */
-	public function add_some_meta_box() {
+	public function add_fli_meta_box() {
 		add_meta_box(
-			'some_meta_box_name'
+			'featured_link_image_meta_box'
 			, __('Featured Link Image', 'fli')
 			, array(&$this, 'render_meta_box_content')
 			, 'link'
