@@ -21,8 +21,8 @@ After selection, the default Link Image field is populated with the image URL an
 1. Go to *Links* -> *Edit* or *Add* to see it in action
 
 
-## Screenshots
- * [Metabox](https://github.com/bueltge/Debug-Objects/blob/master/screenshot-1.png)
+## Screenshot
+ * [Metabox](https://github.com/brasofilo/featured-link-image/raw/master/screenshot.png)
 
 
 ## Other Notes
