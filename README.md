@@ -1,5 +1,5 @@
 # Featured Link Image
-This WordPress Plugin adds a meta box in the Links add/edit page for easy uploading/inserting images for your bookmarks.
+This WordPress Plugin adds a meta box in the Links add/edit page for easy uploading/inserting images in your bookmarks.
 
 ![FLI logo](https://github.com/brasofilo/featured-link-image/raw/master/metabox-sample.png)
 
