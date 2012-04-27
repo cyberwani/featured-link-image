@@ -171,7 +171,6 @@ class brsfl_bookmarkImageMetaBox {
 	 */
 	public function render_meta_box_content() {
 		global $link;
-		global $firephp;$firephp->log(isset($link->link_image),'ISSET');
 		$img            = (isset($link->link_image) && '' !== $link->link_image) ? '<img src="' . $link->link_image . '" class="link-featured-image">' : '';
 		$class_hide   = ('' === $img) ? 'hide-image-text' : '';
 		$class_show      = ('' !== $img) ? 'hide-image-text' : '';
