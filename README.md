@@ -4,7 +4,7 @@
 This WordPress Plugin adds a meta box in the Links add/edit page for easy uploading/inserting images in your bookmarks.
 
 ## Description
-Developed inspired in [this question](http://wordpress.stackexchange.com/questions/44902/uploading-images-for-links) in WordPress StackExchange.
+Inspired by [this question](http://wordpress.stackexchange.com/questions/44902/uploading-images-for-links) in WordPress Answers.
 
 The plugin adds a meta box where you can upload or select an image from your media library.
 
@@ -15,7 +15,6 @@ The plugin also adds a Thumbnail column in the page /wp-admin/link-manager.php
 ## Installation
 ### Requirements
 * WordPress version 3.1 and later (tested at 3.4-beta3)
-* PHP 5.2.4
 
 ### Installation
 1. Unpack the download-package

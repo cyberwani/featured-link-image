@@ -135,13 +135,13 @@ class brsfl_bookmarkImageMetaBox {
 		wp_enqueue_script('media-upload');
 		wp_enqueue_script('thickbox');
 		wp_register_script('fli-uplaod-js', THIS_PLUG_DIR . 'js/uploader.js', array('jquery', 'media-upload', 'thickbox'));
-		wp_register_style('fli-uplaod-css', THIS_PLUG_DIR . 'css/uploader.css');
-		wp_enqueue_style('fli-uplaod-css');
 		wp_enqueue_script('fli-uplaod-js');
 	}
 
 	public function my_admin_styles() {
 		wp_enqueue_style('thickbox');
+		wp_register_style('fli-uplaod-css', THIS_PLUG_DIR . 'css/uploader.css');
+		wp_enqueue_style('fli-uplaod-css');
 	}
 
 	/**
@@ -164,7 +164,8 @@ class brsfl_bookmarkImageMetaBox {
 	 */
 	public function render_meta_box_content() {
 		global $link;
-		$img            = ('' !== $link->link_image) ? '<img src="' . $link->link_image . '" class="link-featured-image">' : '';
+		global $firephp;$firephp->log(isset($link->link_image),'ISSET');
+		$img            = (isset($link->link_image) && '' !== $link->link_image) ? '<img src="' . $link->link_image . '" class="link-featured-image">' : '';
 		$class_hide   = ('' === $img) ? 'hide-image-text' : '';
 		$class_show      = ('' !== $img) ? 'hide-image-text' : '';
 		$spanimg        = sprintf('<div id="my-link-img">%s</div>', $img);
