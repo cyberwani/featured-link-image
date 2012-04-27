@@ -1,7 +1,7 @@
 # Featured Link Image
-![FLI logo](https://github.com/brasofilo/featured-link-image/raw/master/metabox-sample.png)
-
 This WordPress Plugin adds a meta box in the Links add/edit page for easy uploading/inserting images for your bookmarks.
+
+![FLI logo](https://github.com/brasofilo/featured-link-image/raw/master/metabox-sample.png)
 
 ## Description
 Developed for answering [this question](http://wordpress.stackexchange.com/questions/44902/uploading-images-for-links) in WordPress StackExchange.
