@@ -1,4 +1,4 @@
-Attention: [Migrated to WordPress Repository!](http://wordpress.org/extend/plugins/featured-link-image/)
+*Attention*: migrated to [WordPress Repository](http://wordpress.org/extend/plugins/featured-link-image/)!
 
 ![FLI logo](https://github.com/brasofilo/featured-link-image/raw/master/logo.png)
 
